@@ -19,8 +19,8 @@ if __name__ == "__main__":
     pdf_file = Path("data/raw/sample.pdf")
 
     if not pdf_file.exists():
-        print("❌ PDF not found. Please add sample.pdf to data/raw/")
+        print("PDF not found. Please add sample.pdf to data/raw/")
     else:
         text = extract_text_from_pdf(pdf_file)
-        print("✅ PDF TEXT EXTRACTED SUCCESSFULLY\n")
+        print("PDF TEXT EXTRACTED SUCCESSFULLY\n")
         print(text[:2000])  # show only first 2000 characters
