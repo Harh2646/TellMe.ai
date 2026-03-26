@@ -1,16 +1,22 @@
-# Virtual environment
-venv/
-
-# Python cache
-__pycache__/
+﻿__pycache__/
 *.pyc
-
-# Environment variables
+*.py[cod]
+venv/
 .env
-
-# OS files
+node_modules/
+dist/
+build/
+models/
+data/
+pdfs/
+audio/
 .DS_Store
 Thumbs.db
-
-# Data (raw PDFs / extracted text)
-data/raw/
+*.log
+*.wav
+*.bin
+*.safetensors
+.vscode/
+.idea/
+*.db
+*.sqlite
